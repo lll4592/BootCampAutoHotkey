@@ -13,6 +13,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;cmd s - 저장
 #s::Send ^{s}
 
+;cmd c - 복
+#c::Seond ^{c}
+
 ;cmd x - 잘라내기
 #x::Send ^{x}
 
